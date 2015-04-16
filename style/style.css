@@ -1,0 +1,90 @@
+@font-face{
+	font-family:'Open Sans';
+	src:url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.83efe33660ab.eot?#iefix") format('embedded-opentype'),url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.55b8ce1f9a32.woff") format('woff'),url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.3cbf4d3ed22e.ttf") format('truetype');
+	font-weight:normal;
+	font-style:normal
+}
+
+@font-face{
+	font-family:'Open Sans Extrabold';
+	src:url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-ExtraBoldItalic-webfont.5f467e780ed0.eot");
+	src:url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-ExtraBoldItalic-webfont.5f467e780ed0.eot?#iefix") format('embedded-opentype'),url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-ExtraBoldItalic-webfont.4f44077586ec.woff") format('woff'),url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-ExtraBoldItalic-webfont.4595d7f8ce0e.ttf") format('truetype'),url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-ExtraBoldItalic-webfont.9704305e6fd8.svg#OpenSansExtraBoldItalic") format('svg');
+	font-weight:800;
+	font-style:italic
+}
+
+body{
+  margin: 0;
+  overflow-x:hidden;
+  background-color:#C4C4EC;
+  
+  font-family:"Open Sans";
+  color: #333;
+  font-size:1rem;
+}
+
+#container{
+  width:inherit;
+  height:inherit;
+}
+
+.inner{
+  margin: 0 5rem;
+  background-color:#FAF5FE;
+}
+
+div#content{
+  margin:0 1rem;
+}
+
+header{
+  height:8rem;
+  background:url("../src/bg_header.png");
+  background-size:contain;
+  padding:0.5rem;
+}
+
+.logo{
+  margin-right:2rem;
+  width:4.5rem;
+  height:4.5rem;
+  display:inline-block;
+  background: url("../src/logo.png") no-repeat center;
+  background-size:100%;
+  float:right;
+}
+
+#title{
+  margin-left:1rem;
+  display:inline-block;
+  float:left;
+  font-size:3rem;
+  color:#fff;
+  font-family:"Open Sans Extrabold";
+  text-shadow: 8px 6px #555;
+}
+
+a, a:link {
+    color: #CF1F00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li{
+  list-style:none;
+  margin-left:0.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    font-weight: bold;
+    font-family: "Trebuchet MS",tahoma,verdana,sans,arial,helvetica,sans-serif;
+}
+
+footer{
+  height:3rem;
+  margin:2rem 1rem;
+  padding:0.5rem;
+  text-align:right;
+  font-size:0.8rem;
+}
