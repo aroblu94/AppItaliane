@@ -31,7 +31,7 @@ body{
 
 .r_block h2{
   font-family:"Open Sans Extrabold";
-  text-shadow: 2px 2px #555;
+  text-shadow: 0 3px #333;
   color:#fff;
   margin: 1rem;
 }
@@ -81,7 +81,7 @@ header{
   font-size:3rem;
   color:#fff;
   font-family:"Open Sans Extrabold";
-  text-shadow: 8px 6px #555;
+  text-shadow: 0 4px #666;
 }
 
 a, a:link {
