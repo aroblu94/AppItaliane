@@ -26,26 +26,21 @@ body{
 .r_block {
   background-color:#C4C4EC;
   border-radius:10px;
+  padding-bottom:2rem;
 }
 
 .r_block h2{
   font-family:"Open Sans Extrabold";
   text-shadow: 2px 2px #555;
   color:#fff;
-}
-
-.r_block > *{
   margin: 1rem;
 }
 
-ul{
-  padding-bottom:2rem;
-}
-
 .r_block li{
+  padding:0;
   list-style:none;
   background:none;
-  padding:0;
+  margin-left:2rem;  
 }
 
 #container{
