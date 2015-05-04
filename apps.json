@@ -38,6 +38,12 @@
                     "description": "Riepilogo dalla pagina MSN",
                     "author": "",
                     "href": "https://marketplace.firefox.com/app/msn"
+                },
+                {
+                	"name": "Aro94's blog",
+                	"description": "Notizie dal blog di aro94",
+                	"author": "aroblu94",
+                	"href": "https://marketplace.firefox.com/app/aro94s-blog/"
                 }
             ]
         },
@@ -194,6 +200,12 @@
                     "description": "Ricette",
                     "author": "Vincenzo Bonanno",
                     "href": "https://marketplace.firefox.com/app/ricette-dukan"
+                },
+                {
+                	"name": "MerryFirefox",
+                	"description": "",
+                	"author": "aroblu94",
+                	"href": "https://marketplace.firefox.com/app/merryfirefox/"
                 }
             ]
         },
@@ -221,7 +233,7 @@
                 {
                     "name": "GitRSS",
                     "description": "",
-                    "author": "nicokant, aro94, giuscri",
+                    "author": "nicokant, aroblu94, giuscri",
                     "href": "https://marketplace.firefox.com/app/gitrss"
                 },
                 {
@@ -241,6 +253,12 @@
                     "description": "",
                     "author": "Vincenzo Bonanno",
                     "href": "https://marketplace.firefox.com/app/sicily-in-the-world"
+                },
+                {
+                	"name": "OpenPGP",
+                	"description": "",
+                	"author": "aroblu94",
+                	"href": "https://marketplace.firefox.com/app/openpgp/"
                 }
             ]
         }
