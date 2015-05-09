@@ -2,9 +2,43 @@
 <html>
   <head>
     <meta charset='utf-8'>
+    <meta name="viewport"  content = "width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
     <script src="script/app.js"></script>
     <title>Applicazioni Italiane</title>
+    <style>
+      @media (max-width: 1200px) {
+        .inner {
+          margin:2rem;
+        }
+      }
+      
+      @media (max-width: 700px) {
+        .inner {
+          margin:1rem;
+        }
+        #right{
+          display:none;
+        }
+        #left{
+          width:100% !important;
+          display:static;
+        }
+        li{
+          margin-left:1rem;
+        }
+        footer{
+          height:auto;
+        }
+        .logo{
+          position:absolute;
+          top:2rem;
+          right:2rem;
+          z-index:3;
+          margin:0;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -12,7 +46,7 @@
       <div class="inner">
 
         <header>
-          <div id='title'> Applicazioni Italiane per Firefox OS</div><div class='logo'></div>
+          <div id='title'> Apps Italiane</div><div class='logo'></div>
         </header>
 
         <div id='content'>
@@ -42,11 +76,10 @@
                   <li><a target='_blank' href='http://mozillaitalia.org'>Sito Web</a></li>
                   <li><a target='_blank' href='http://forum.mozillaitalia.org'>Forum</a></li>
                   <li><a target='_blank' href='https://github.com/MozillaItalia'>Github</a></li>
-                  <li><a target='_blank' href='https://www.facebook.com/mozillaitalia'>Facebook</a></li>
+                  <li><a target='_blank' href='https://www.facebook.com/mozillaitalia'>Faceook</a></li>
                   <li><a target='_blank' href='https://twitter.com/mozillaitalia'>Twitter</a></li>
                   <li><a href='#'>IRC</a> (irc.mozilla.org #developers-it)</li>
                   <li><a target='_blank'  href='https://www.facebook.com/firefoxosit'>Firefox OS Italia</a></li>
-                  <li><a target='_blank'  href='https://twitter.com/firefoxosit'>Firefox OS Italia su Twitter</a></li>
               </div>    
               
             </div>
@@ -61,11 +94,7 @@
         </div>
 
           <footer>
-            Apps Italiane è una pagina mantenuta da un gruppo di volontari Mozilla italiani e dalla community di 
-            <a target='_blank' href="https://github.com/MozillaItalia">MozillaItalia</a> 
-            - scopri come <a target='_blank' href='https://www.mozilla.org/it/contribute/'>contribuire</a> 
-            - fai una <a target="_blank" href="https://github.com/nicokant94/AppItaliane/issues">segnalazione</a> 
-            - collabora al <a target="_blank" href="https://github.com/nicokant94/AppItaliane">progetto</a>
+            Apps Italiane è una pagina mantenuta da un gruppo di volontari Mozilla italiani e dalla community di <a target='_blank' href="https://github.com/MozillaItalia">MozillaItalia</a> - scopri come <a target='_blank' href='https://www.mozilla.org/it/contribute/'>contribuire</a>
           </footer>
 
       </div>

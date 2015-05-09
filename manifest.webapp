@@ -1,14 +1,14 @@
 {
-  "name": "My App",
-  "description": "My elevator pitch goes here",
-  "launch_path": "/index.html",
+  "name": "Applicazioni Italiane",
+  "description": "Gallery of Italian Applications",
+  "launch_path": "/AppItaliane/index.html",
   "icons": {
-    "512": "/img/icon-512.png",
-    "128": "/img/icon-128.png"
+    "512": "/AppItaliane/src/512.png",
+    "256": "/AppItaliane/src/256.png",
+    "128" : "/AppItaliane/src/128.png"
   },
   "developer": {
-    "name": "Your name or organization",
-    "url": "http://your-homepage-here.org"
+    "name": "Mozilla Italia"
   },
-  "default_locale": "en"
+  "default_locale": "it"
 }
