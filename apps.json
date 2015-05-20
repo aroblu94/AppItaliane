@@ -43,7 +43,13 @@
                 	"name": "Aro94's blog",
                 	"description": "Notizie dal blog di aro94",
                 	"author": "aroblu94",
-                	"href": "https://marketplace.firefox.com/app/aro94s-blog/"
+                	"href": "https://marketplace.firefox.com/app/aro94s-blog"
+                },
+                {
+                	"name": "ChimeraFeed",
+                	"description": "Feed reader per il sito di Chimera Revo",
+                	"author": "massi",
+                	"href": "https://marketplace.firefox.com/app/chimerafeed"
                 }
             ]
         },
@@ -256,7 +262,7 @@
                 },
                 {
                 	"name": "OpenPGP",
-                	"description": "",
+                	"description": "App per la cifratura PGP",
                 	"author": "aroblu94",
                 	"href": "https://marketplace.firefox.com/app/openpgp/"
                 }
